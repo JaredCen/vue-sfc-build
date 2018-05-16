@@ -1,0 +1,28 @@
+
+.fs-formpro__rule .rule-sec-hd {
+  padding-left: 12px;
+  font-size: 12px;
+  color: #999;
+  line-height: 36px;
+}
+.fs-formpro__rule .rule-sec-bd {
+  padding: 20px 12px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.fs-formpro__rule .rule-sec-bd .rule-item {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+.fs-formpro__rule .rule-sec-bd .rule-item:first-of-type {
+  padding-top: 0;
+}
+.fs-formpro__rule .rule-sec-bd .rule-item-tit {
+  flex: 0 0 auto;
+  color: #999;
+}
+.fs-formpro__rule .rule-sec-bd .rule-item-con {
+  padding-left: 35px;
+  color: #333;
+}

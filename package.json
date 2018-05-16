@@ -1,18 +1,19 @@
 {
-  "name": "build-demo",
+  "name": "build-component-demo",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "vue组件库组件独立打包方案",
   "author": "cenjw",
   "license": "ISC",
+  "scripts": {
+    "build": "node ./build/build-component.js"
+  },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^1.0.0",
-    "less": "^3.0.1",
-    "vue-component-compiler": "^2.0.0",
-    "vue-template-compiler": "^2.5.16",
-    "vueify": "^9.4.1"
+    "@vue/component-compiler": "^3.3.2",
+    "@vue/component-compiler-utils": "^1.2.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "less": "^3.0.4",
+    "vue-template-compiler": "^2.5.16"
   }
 }
