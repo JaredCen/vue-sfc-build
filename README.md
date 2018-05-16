@@ -3,6 +3,7 @@
 > vue组件库组件独立打包方案
 
 见`./build/build-component.js`。
+demo见`./dist`。
 
 ### Main Dependences
 
