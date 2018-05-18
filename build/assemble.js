@@ -13,6 +13,7 @@ function __vue_normalize__(script, template) {
         script._compiled = true;
         if (functional) script.functional = true;
     }
+    return script;
 }
     `;
     let cssImport = '';
